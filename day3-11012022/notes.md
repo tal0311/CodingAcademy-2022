@@ -3,12 +3,12 @@
 ### Math.[method]()
 
 **mathematical functions**
-pi
-abs
-ceil
-pow
-max
-round
+- pi
+- abs
+- ceil
+- pow
+- max
+- round
 
 ### String
 
