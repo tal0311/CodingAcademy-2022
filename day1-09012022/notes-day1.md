@@ -20,9 +20,11 @@ confirm() will give you a boolean from user
 
 <!-- code -->
 
-if (tasteScore >= 80 || (failsCount < 3 && FeelingMercy)) {
+if (tasteScore >= 80 || (failsCount < 3 && FeelingMercy)) {  
+
 alert('Tip')
-} else {
+}   
+else {
 alert('Thanks')
 }
 
