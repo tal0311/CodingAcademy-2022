@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touch numbers</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onload="init()">
+    <h1>Touch numbers</h1>
+    <div class="time"></div>
+    <div class="level-container">
+      <button class="16" onclick="changeLevel(16)">Basic</button>
+      <button class="25" onclick="changeLevel(25)">Pro</button>
+      <button class="36" onclick="changeLevel(36)">Expert</button>
+    </div>
+
+    <table border="1" cellpadding="10">
+      <tbody class="board"></tbody>
+    </table>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
