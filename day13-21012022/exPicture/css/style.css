@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  background-color: #333;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(236, 214, 214);
+  transform: translateX(-10%);
+  font-size: large;
+  letter-spacing: 2px;
+}
+
+.quest-container {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main {
+  width: 27vw;
+  height: 80vh;
+
+  align-items: center;
+  margin: auto;
+}
+
+.main img {
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div p {
+  padding-top: 10%;
+  font-size: xx-large;
+  margin-top: 20px;
+  color: rgb(236, 214, 214);
+  background-color: slategray;
+  height: 80px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.score {
+  padding-top: 50px;
+  letter-spacing: 1px;
+  color: rgb(236, 214, 214);
+  text-align: center;
+}
+button {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(105, 101, 101);
+  padding: 10px 25px;
+  margin: 30px;
+  color: rgb(236, 214, 214);
+}
+.game-over {
+  font-size: x-large;
+  color: rgb(236, 214, 214);
+  letter-spacing: 2px;
+}
