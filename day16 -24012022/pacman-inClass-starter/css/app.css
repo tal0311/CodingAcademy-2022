@@ -25,3 +25,8 @@ body {
 .hidden {
   display: none;
 }
+
+body {
+  background-image: repet;
+  background-repeat: repeat-y;
+}

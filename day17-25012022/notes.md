@@ -62,3 +62,4 @@ background-size: cover will adjust to container size
 :first-letter
 :nth(3n) every 3rd from this can take odd even
 :checked - will use for check boxes
+:focus - when a element is on focus
