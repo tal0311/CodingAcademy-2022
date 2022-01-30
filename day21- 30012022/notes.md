@@ -52,4 +52,39 @@ defines animation
 animation timing function: linear  
 animation iteration count: [times]
 
-### layout
+## layout
+
+header, content nav footer  
+in past table was used for layouts- worst for SEO  
+now it is used only for emails  
+colspan - how many cols to expend
+cellspacing is margin inside the html
+
+### layers
+
+to put element over an other
+
+#### position
+
+every position have 4 properties.
+top: , left: , right: , up:  
+**statice** is default position  
+**relative**- relative to its original position. in the html  
+**absolute** - will exit the document flow in to its first parent flow that is not static  
+**fixed** is defined by the view port
+
+#### z-index
+
+by default z index is 0  
+better use 10 points jumps
+
+#### float
+
+float right, lefet
+
+_width and hight do not affect inline element_
+
+#### p layout
+
+column-count, column-gap
+column-rule is the border, takes border properties
