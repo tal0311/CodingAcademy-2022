@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #888;
+}
+td {
+  border: 1px solid black;
+}
+
+table {
+  margin: auto;
+  height: 500px;
+  width: 100%;
+}
+
+.header {
+  height: 100px;
+  background-color: blanchedalmond;
+  width: 100%;
+}
+
+.box {
+  border: 1px solid black;
+}
+.side {
+  width: 20%;
+  position: absolute;
+  background-color: rgb(197, 129, 39);
+  height: 300px;
+}
+
+.main {
+  background-color: cadetblue;
+  position: absolute;
+  left: 20%;
+  height: 300px;
+  width: 79.5%;
+}
+
+.footer {
+  position: relative;
+  top: 300px;
+  height: 100px;
+  background-color: darkkhaki;
+}

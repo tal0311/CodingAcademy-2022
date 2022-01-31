@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #888;
+}
+
+.box {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+}
+
+.header {
+  height: 100px;
+  background-color: blanchedalmond;
+  width: 100%;
+}
+
+.main,
+.side {
+  height: 300px;
+}
+.side {
+  width: 20%;
+  background-color: rgb(197, 129, 39);
+  float: left;
+}
+
+.main {
+  background-color: cadetblue;
+  float: left;
+  width: 80%;
+}
+
+.footer {
+  clear: left;
+  width: 100%;
+  height: 100px;
+  background-color: darkkhaki;
+}
