@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'one one . tow tow'
+    'one one three three three'
+    'five five five . four'
+    'six six six six six';
+
+  height: 100vh;
+}
+
+.item {
+  font-size: 6rem;
+  background-color: aquamarine;
+}
+
+.one {
+  grid-area: one;
+  background-color: blueviolet;
+}
+
+.tow {
+  grid-area: tow;
+  background-color: bisque;
+}
+
+.three {
+  background-color: rgb(226, 255, 205);
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+  background-color: aqua;
+}
+
+.five {
+  grid-area: five;
+  background-color: cadetblue;
+}
+
+.six {
+  background-color: brown;
+  grid-area: six;
+}

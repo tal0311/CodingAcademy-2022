@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1.5fr 1.3fr 0.7fr 1fr;
+  grid-template-rows: 0.8fr 0.5fr 1.7fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'header header header header header header'
+    'nav nav nav nav nav nav'
+    'aside aside main main commercial commercial'
+    '. footer footer footer footer .';
+
+  height: 100vh;
+}
+
+.item {
+  text-align: center;
+  font-size: 3rem;
+}
+.footer {
+  background-color: brown;
+  grid-area: footer;
+}
+
+.main {
+  background-color: red;
+  grid-area: main;
+}
+
+.commercial {
+  background-color: yellow;
+  grid-area: commercial;
+}
+
+.aside {
+  background-color: aqua;
+  grid-area: aside;
+}
+
+.nav {
+  background-color: tomato;
+  grid-area: nav;
+}
+
+.header {
+  background-color: blue;
+  grid-area: header;
+}
