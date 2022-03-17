@@ -32,3 +32,18 @@ h1.green{
  font-size:1em  
 }  
 }
+
+
+## color functions
+link: https://www.w3schools.com/sass/sass_functions_color.php  
+
+**functions and variables are the value side of property**
+
+## Mixins
+reusable css chunk  
+@mixin btn()
+
+
+button{
+    @include btn()
+}
